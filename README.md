@@ -1,21 +1,21 @@
-Telescope is an open-source, real-time social news site built with [Meteor](http://meteor.com)
+# CreativeAI
+[CreativeAI.net](https://www.CreativeAI.net/)
 
-**Note:** Telescope is beta software. Most of it should work but it's still a little unpolished and you'll probably find some bugs. Use at your own risk :)
+## About
+In recent years, there has been an explosion of research and experiments that deal with Creativity and A.I. Almost every week, there is a new bot that paints, writes stories, composes music, designs objects or builds houses. Projects cover a wide range of disciplines — from machine learning, music, writing, art, fashion to industrial design and architecture. We call this phenomenon “CreativeAI”.
 
-Note that Telescope is distributed under the [MIT License](http://opensource.org/licenses/MIT)
+**CreativeAI.net** is a space to share CreativeAI projects. Countless links to CreativeAI Projects are floating around the web. It’s hard to keep track of these gems. CreativeAI.net attempts to solve this problem by offering a collaboratively curated feed of projects. Each project is conveniently presented as **Link + Media + Tags + Discussion**. People can submit their findings and let the community discover and discuss it. A regular newsletter makes it easy to stay up-to-date on recent advancements. It’s free and open. [Read more...](https://medium.com/@ArtificialExperience/creativeai-net-2cf05c584a75)
 
-### Getting Started
+- The CreativeAI.net website is open-source.
+- For ideas/bugs/feature requests, get in touch ([@graphific](https://twitter.com/graphific), [@samim](https://twitter.com/samim))!
+- CreativeAI.net has a [RSS feed](http://www.creativeai.net/feed.xml).
+- CreativeAI.net was created by AE - [http://artificialexperience.com](http://artificialexperience.com)
 
-Note that while simply cloning this repository will work, it is recommended you clone the [sample project](https://github.com/TelescopeJS/sample-project/) repository instead for a simpler workflow.
+Following a similar design logic as [GitXiv](http://gitxiv.com/)  The aim is, to keep the site as open as possible and let the community shape its future.  
 
-Please refer to [the documentation](http://telescope.readme.io/v0.20/docs/installing-telescope) for more instructions on installing Telescope.
+## Dependencies
+- [Telescope](https://github.com/TelescopeJS/Telescope)  
+- [Meteor](https://github.com/meteor/meteor)  
+- [Node](https://github.com/nodejs/node)  
 
-### Learn More
 
-- [Homepage](http://telescopeapp.org)
-- [Demo](http://demo2.telescopeapp.org)
-- [Sample Project](https://github.com/TelescopeJS/sample-project/)
-- [Documentation](http://telescope.readme.io)
-- [Roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap)
-- [Slack](http://slack.telescopeapp.org/)
-- [Meta](http://meta.telescopeapp.org/) – Discussions about Telescope
