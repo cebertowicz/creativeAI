@@ -1,6 +1,6 @@
 <template name="custom_post_title">
 	{{#if isMainPage}}
-		<a class="custom_post_title" title="{{this.url}}" href="{{this.url}}">{{custom_title}}</a>
+		<a class="custom_post_title" title="{{this.url}}" target="_blank" href="{{this.url}}">{{custom_title}}</a>
 	{{else}}
   		<a class="custom_post_title" href="{{custom_link}}">{{custom_title}}</a>
   	{{/if}}
@@ -40,7 +40,7 @@
 <template name="custom_post_thumbnail">
 	{{#if isEmpty services_thumbnail}}
 		{{#if isMainPage}}
-			<a href="{{this.url}}">
+			<a target="_blank" href="{{this.url}}">
 				<div class="post-thumbnail-container post-thumbnail" style="background-image:url( {{services_thumbnail}} )">
 		    		<div class="post-thumbnail-loading">{{>spinner}}</div>
 		  		</div>
@@ -192,7 +192,7 @@
 		      	{{> modules zone="postMeta" zoneClass="post-meta" moduleClass="post-meta-item" moduleData=this}}
 		      	<div class="btn_custom" style="margin-bottom:4px;margin-top:10px;">
 		      		{{#if haslink}}
-			      		<a style="background-color:#5898f1;padding:6px;border-radius:3px;font-weight:600;color:white;padding-left:25px;padding-right:25px;" title="{{gotolink}}" href="{{gotolink}}">GO TO LINK</a>
+			      		<a style="background-color:#5898f1;padding:6px;border-radius:3px;font-weight:600;color:white;padding-left:25px;padding-right:25px;" title="{{gotolink}}" target="_blank" href="{{gotolink}}">GO TO LINK</a>
 			      	{{/if}}
 		      		{{> custom_post_vote2}}
 		      		{{> custom_post_share2}}
@@ -202,7 +202,6 @@
 		   	{{> modules zone="postThumbnail" moduleData=this}}
 		</div>
   	{{else}}
-  
 	  <div class="post-content {{moduleClass}}">
 	    {{> modules zone="postThumbnail" moduleData=this}}
 	    <div class="post-info">
